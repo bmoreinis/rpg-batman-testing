@@ -1,0 +1,18 @@
+What we need is to have the "Fight Him" option run the round(); function and build a runAway() function as well as a robinMelee() option, to give the player advice on how to melee/what he would do in this situation. (Can have robin say "I don't know Batman, its your call" sometimes).
+
+5/20/22{
+	The problem here is now if webhelper.js is apart of the melee.html, it will loop to index. But if it's not there, the setup(); function in webhelper will not work, which is causing the cases for "Fight Him","Run Away", and "Ask Robin" to NOT WORK. 
+
+	OPTIONS{
+		New file, call meleeHelper.js?
+		fix webhelper.js?
+	}
+}
+
+5/23/22 CONDITIONAL{
+	Conditional that states if it is the players turn, then go to the option, if it is the NPC's turn, then display the new story after a few seconds, OR use a "Ok" button to advance dialogue, otherwise, a new event will happen to determine initiative
+
+	CONCLUDING CLASS{
+		Make Characters and Melee Folders, put style.css and webhelper.js OUTSIDE of the folders. 
+	}
+}
